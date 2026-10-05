@@ -1,0 +1,6 @@
+Fold 1: Test=george    Val=jackson   Train=lucas,nicolas,theo,yweweler  sizes=2000/500/500  speaker-disjoint=PASS
+Fold 2: Test=jackson   Val=lucas     Train=george,nicolas,theo,yweweler  sizes=2000/500/500  speaker-disjoint=PASS
+Fold 3: Test=lucas     Val=nicolas   Train=george,jackson,theo,yweweler  sizes=2000/500/500  speaker-disjoint=PASS
+Fold 4: Test=nicolas   Val=theo      Train=george,jackson,lucas,yweweler  sizes=2000/500/500  speaker-disjoint=PASS
+Fold 5: Test=theo      Val=yweweler  Train=george,jackson,lucas,nicolas  sizes=2000/500/500  speaker-disjoint=PASS
+Fold 6: Test=yweweler  Val=george    Train=jackson,lucas,nicolas,theo  sizes=2000/500/500  speaker-disjoint=PASS

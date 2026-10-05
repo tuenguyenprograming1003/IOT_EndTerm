@@ -1,0 +1,37 @@
+fold 1 seed 0: best epoch 45 val_acc=0.5460 test(george) acc=0.5140
+fold 2 seed 0: best epoch 48 val_acc=0.3720 test(jackson) acc=0.5620
+fold 3 seed 0: best epoch 5 val_acc=0.4480 test(lucas) acc=0.2400
+fold 4 seed 0: best epoch 56 val_acc=0.6200 test(nicolas) acc=0.2700
+fold 5 seed 0: best epoch 45 val_acc=0.4060 test(theo) acc=0.4380
+fold 6 seed 0: best epoch 39 val_acc=0.5720 test(yweweler) acc=0.5160
+fold 1 seed 1: best epoch 57 val_acc=0.5880 test(george) acc=0.5400
+fold 2 seed 1: best epoch 52 val_acc=0.3640 test(jackson) acc=0.6100
+fold 3 seed 1: best epoch 59 val_acc=0.3440 test(lucas) acc=0.2560
+fold 4 seed 1: best epoch 56 val_acc=0.5820 test(nicolas) acc=0.3340
+fold 5 seed 1: best epoch 59 val_acc=0.4140 test(theo) acc=0.4360
+fold 6 seed 1: best epoch 57 val_acc=0.6300 test(yweweler) acc=0.4940
+fold 1 seed 2: best epoch 56 val_acc=0.5860 test(george) acc=0.4920
+fold 2 seed 2: best epoch 46 val_acc=0.3900 test(jackson) acc=0.6220
+fold 3 seed 2: best epoch 57 val_acc=0.4400 test(lucas) acc=0.2720
+fold 4 seed 2: best epoch 41 val_acc=0.7040 test(nicolas) acc=0.3860
+fold 5 seed 2: best epoch 59 val_acc=0.4220 test(theo) acc=0.4520
+fold 6 seed 2: best epoch 56 val_acc=0.5940 test(yweweler) acc=0.5200
+ fold  seed  best_epoch  val_acc  test_acc
+    1     0          45    0.546     0.514
+    2     0          48    0.372     0.562
+    3     0           5    0.448     0.240
+    4     0          56    0.620     0.270
+    5     0          45    0.406     0.438
+    6     0          39    0.572     0.516
+    1     1          57    0.588     0.540
+    2     1          52    0.364     0.610
+    3     1          59    0.344     0.256
+    4     1          56    0.582     0.334
+    5     1          59    0.414     0.436
+    6     1          57    0.630     0.494
+    1     2          56    0.586     0.492
+    2     2          46    0.390     0.622
+    3     2          57    0.440     0.272
+    4     2          41    0.704     0.386
+    5     2          59    0.422     0.452
+    6     2          56    0.594     0.520

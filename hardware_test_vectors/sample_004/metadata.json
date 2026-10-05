@@ -1,0 +1,13 @@
+{
+  "filename": "2_theo_5.wav",
+  "label": 2,
+  "speaker": "theo",
+  "fold": 1,
+  "seed": 0,
+  "input": "normalised log-mel 1x64x32 float32 (fold Train stats)",
+  "models": {
+    "d64": "Task-AE_d64_fold1_seed0",
+    "d128": "Task-AE_d128_fold1_seed0",
+    "d256": "Task-AE_d256_fold1_seed0"
+  }
+}

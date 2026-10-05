@@ -1,0 +1,13 @@
+{
+  "method": "Task-AE",
+  "d": 128,
+  "fold": 1,
+  "seed": 0,
+  "n_packets": 500,
+  "packet_bytes_min": 132,
+  "packet_bytes_max": 132,
+  "expected_bytes": 132,
+  "bytes_ok": true,
+  "accuracy_from_packets": 0.472,
+  "prediction_agreement_with_reference": 1.0
+}

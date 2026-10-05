@@ -1,0 +1,18 @@
+Fold 1: train speakers=['lucas', 'nicolas', 'theo', 'yweweler'] n=2000 sigma[min,max]=[0.5334,1.5440] train-normalised mean=+5.96e-09 std=1.0000
+   val: mean=-0.0253 std=0.9974 (uses Train stats)
+   test: mean=+0.0195 std=1.1019 (uses Train stats)
+Fold 2: train speakers=['george', 'nicolas', 'theo', 'yweweler'] n=2000 sigma[min,max]=[0.5579,1.5218] train-normalised mean=+2.57e-08 std=1.0000
+   val: mean=+0.0029 std=1.0373 (uses Train stats)
+   test: mean=-0.0247 std=0.9893 (uses Train stats)
+Fold 3: train speakers=['george', 'jackson', 'theo', 'yweweler'] n=2000 sigma[min,max]=[0.4590,1.4848] train-normalised mean=-1.81e-08 std=1.0000
+   val: mean=+0.0176 std=1.0339 (uses Train stats)
+   test: mean=+0.0085 std=1.0390 (uses Train stats)
+Fold 4: train speakers=['george', 'jackson', 'lucas', 'yweweler'] n=2000 sigma[min,max]=[0.4252,1.4573] train-normalised mean=+0.00e+00 std=1.0000
+   val: mean=-0.0057 std=0.9327 (uses Train stats)
+   test: mean=+0.0167 std=1.0246 (uses Train stats)
+Fold 5: train speakers=['george', 'jackson', 'lucas', 'nicolas'] n=2000 sigma[min,max]=[0.5976,1.4371] train-normalised mean=-1.00e-08 std=1.0000
+   val: mean=-0.0008 std=0.9624 (uses Train stats)
+   test: mean=-0.0101 std=0.9198 (uses Train stats)
+Fold 6: train speakers=['jackson', 'lucas', 'nicolas', 'theo'] n=2000 sigma[min,max]=[0.5936,1.4982] train-normalised mean=-3.00e-08 std=1.0000
+   val: mean=+0.0242 std=1.0969 (uses Train stats)
+   test: mean=+0.0055 std=0.9888 (uses Train stats)

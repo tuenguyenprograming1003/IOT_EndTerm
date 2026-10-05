@@ -1,0 +1,218 @@
+34 codec trainings
+AE-MSE_d64_fold4_seed0: best ep 55 val_mse=0.1558 val_acc=0.5360 (443.8s)
+AE-MSE_d64_fold2_seed0: best ep 55 val_mse=0.1071 val_acc=0.2960 (445.7s)
+AE-MSE_d64_fold5_seed0: best ep 52 val_mse=0.1106 val_acc=0.3600 (445.9s)
+AE-MSE_d64_fold1_seed0: best ep 50 val_mse=0.0776 val_acc=0.4680 (446.5s)
+AE-MSE_d64_fold3_seed0: best ep 50 val_mse=0.0801 val_acc=0.3960 (447.3s)
+AE-MSE_d64_fold6_seed0: best ep 59 val_mse=0.1189 val_acc=0.5580 (447.3s)
+AE-MSE_d128_fold2_seed0: best ep 57 val_mse=0.0623 val_acc=0.3220 (476.8s)
+AE-MSE_d128_fold4_seed0: best ep 59 val_mse=0.1056 val_acc=0.6580 (478.4s)
+AE-MSE_d128_fold6_seed0: best ep 59 val_mse=0.0782 val_acc=0.5580 (478.0s)
+AE-MSE_d128_fold5_seed0: best ep 58 val_mse=0.0628 val_acc=0.4140 (478.8s)
+AE-MSE_d128_fold3_seed0: best ep 58 val_mse=0.0493 val_acc=0.4360 (480.9s)
+AE-MSE_d256_fold1_seed0: best ep 59 val_mse=0.0332 val_acc=0.5260 (481.6s)
+AE-MSE_d256_fold2_seed0: best ep 58 val_mse=0.0378 val_acc=0.3480 (420.5s)
+AE-MSE_d256_fold3_seed0: best ep 59 val_mse=0.0361 val_acc=0.4520 (422.3s)
+AE-MSE_d256_fold4_seed0: best ep 59 val_mse=0.0764 val_acc=0.6380 (422.8s)
+AE-MSE_d256_fold5_seed0: best ep 58 val_mse=0.0426 val_acc=0.4120 (423.8s)
+AE-MSE_d256_fold6_seed0: best ep 59 val_mse=0.0543 val_acc=0.5600 (424.2s)
+Task-AE_d64_fold1_seed0: best ep 45 val_mse=0.1153 val_acc=0.5180 (548.8s)
+Task-AE_d64_fold2_seed0: best ep 41 val_mse=0.1550 val_acc=0.3700 (524.1s)
+Task-AE_d64_fold3_seed0: best ep 41 val_mse=0.2676 val_acc=0.3940 (525.2s)
+Task-AE_d64_fold4_seed0: best ep 56 val_mse=0.1883 val_acc=0.6900 (527.7s)
+Task-AE_d64_fold5_seed0: best ep 40 val_mse=0.1756 val_acc=0.4200 (529.2s)
+Task-AE_d64_fold6_seed0: best ep 58 val_mse=0.1576 val_acc=0.5360 (528.9s)
+Task-AE_d128_fold2_seed0: best ep 45 val_mse=0.0869 val_acc=0.3600 (531.7s)
+Task-AE_d128_fold3_seed0: best ep 45 val_mse=0.1877 val_acc=0.3940 (561.9s)
+Task-AE_d128_fold4_seed0: best ep 45 val_mse=0.1328 val_acc=0.6200 (561.1s)
+Task-AE_d128_fold5_seed0: best ep 41 val_mse=0.1155 val_acc=0.4220 (563.4s)
+Task-AE_d128_fold6_seed0: best ep 58 val_mse=0.1138 val_acc=0.5820 (564.7s)
+Task-AE_d256_fold1_seed0: best ep 45 val_mse=0.0618 val_acc=0.5700 (565.1s)
+Task-AE_d256_fold2_seed0: best ep 43 val_mse=0.0923 val_acc=0.3560 (547.3s)
+Task-AE_d256_fold3_seed0: best ep 45 val_mse=0.1688 val_acc=0.4640 (991.6s)
+Task-AE_d256_fold4_seed0: best ep 57 val_mse=0.1137 val_acc=0.6520 (990.2s)
+Task-AE_d256_fold5_seed0: best ep 41 val_mse=0.0844 val_acc=0.4060 (987.8s)
+Task-AE_d256_fold6_seed0: best ep 58 val_mse=0.1059 val_acc=0.6200 (986.1s)
+                    name  method   d  fold  seed  lam_max  best_epoch  val_mse  val_acc  first_train_rec  last_train_rec  seconds
+  AE-MSE_d64_fold1_seed0  AE-MSE  64     1     0      1.0          50 0.077641    0.468         0.525803        0.087216    446.5
+  AE-MSE_d64_fold2_seed0  AE-MSE  64     2     0      1.0          55 0.107060    0.296         0.511541        0.084630    445.7
+  AE-MSE_d64_fold3_seed0  AE-MSE  64     3     0      1.0          50 0.080067    0.396         0.512639        0.087004    447.3
+  AE-MSE_d64_fold4_seed0  AE-MSE  64     4     0      1.0          55 0.155827    0.536         0.498946        0.072606    443.8
+  AE-MSE_d64_fold5_seed0  AE-MSE  64     5     0      1.0          52 0.110630    0.360         0.463260        0.066070    445.9
+  AE-MSE_d64_fold6_seed0  AE-MSE  64     6     0      1.0          59 0.118913    0.558         0.515342        0.082912    447.3
+ AE-MSE_d128_fold2_seed0  AE-MSE 128     2     0      1.0          57 0.062315    0.322         0.517183        0.055893    476.8
+ AE-MSE_d128_fold3_seed0  AE-MSE 128     3     0      1.0          58 0.049289    0.436         0.521668        0.057753    480.9
+ AE-MSE_d128_fold4_seed0  AE-MSE 128     4     0      1.0          59 0.105609    0.658         0.505916        0.045486    478.4
+ AE-MSE_d128_fold5_seed0  AE-MSE 128     5     0      1.0          58 0.062766    0.414         0.486245        0.042268    478.8
+ AE-MSE_d128_fold6_seed0  AE-MSE 128     6     0      1.0          59 0.078204    0.558         0.509884        0.054121    478.0
+ AE-MSE_d256_fold1_seed0  AE-MSE 256     1     0      1.0          59 0.033180    0.526         0.570443        0.041451    481.6
+ AE-MSE_d256_fold2_seed0  AE-MSE 256     2     0      1.0          58 0.037785    0.348         0.560975        0.040971    420.5
+ AE-MSE_d256_fold3_seed0  AE-MSE 256     3     0      1.0          59 0.036113    0.452         0.563160        0.041204    422.3
+ AE-MSE_d256_fold4_seed0  AE-MSE 256     4     0      1.0          59 0.076430    0.638         0.536779        0.033165    422.8
+ AE-MSE_d256_fold5_seed0  AE-MSE 256     5     0      1.0          58 0.042614    0.412         0.506799        0.030258    423.8
+ AE-MSE_d256_fold6_seed0  AE-MSE 256     6     0      1.0          59 0.054269    0.560         0.544570        0.039056    424.2
+ Task-AE_d64_fold1_seed0 Task-AE  64     1     0      1.0          45 0.115282    0.518         0.525803        0.131658    548.8
+ Task-AE_d64_fold2_seed0 Task-AE  64     2     0      1.0          41 0.154974    0.370         0.511541        0.117219    524.1
+ Task-AE_d64_fold3_seed0 Task-AE  64     3     0      1.0          41 0.267553    0.394         0.512639        0.298579    525.2
+ Task-AE_d64_fold4_seed0 Task-AE  64     4     0      1.0          56 0.188286    0.690         0.498946        0.099161    527.7
+ Task-AE_d64_fold5_seed0 Task-AE  64     5     0      1.0          40 0.175624    0.420         0.463260        0.096384    529.2
+ Task-AE_d64_fold6_seed0 Task-AE  64     6     0      1.0          58 0.157557    0.536         0.515342        0.119334    528.9
+Task-AE_d128_fold2_seed0 Task-AE 128     2     0      1.0          45 0.086873    0.360         0.517183        0.077760    531.7
+Task-AE_d128_fold3_seed0 Task-AE 128     3     0      1.0          45 0.187730    0.394         0.521668        0.262205    561.9
+Task-AE_d128_fold4_seed0 Task-AE 128     4     0      1.0          45 0.132830    0.620         0.505916        0.060066    561.1
+Task-AE_d128_fold5_seed0 Task-AE 128     5     0      1.0          41 0.115496    0.422         0.486245        0.069115    563.4
+Task-AE_d128_fold6_seed0 Task-AE 128     6     0      1.0          58 0.113839    0.582         0.509884        0.086407    564.7
+Task-AE_d256_fold1_seed0 Task-AE 256     1     0      1.0          45 0.061779    0.570         0.570443        0.070521    565.1
+Task-AE_d256_fold2_seed0 Task-AE 256     2     0      1.0          43 0.092343    0.356         0.560975        0.065494    547.3
+Task-AE_d256_fold3_seed0 Task-AE 256     3     0      1.0          45 0.168773    0.464         0.563160        0.244412    991.6
+Task-AE_d256_fold4_seed0 Task-AE 256     4     0      1.0          57 0.113680    0.652         0.536779        0.053173    990.2
+Task-AE_d256_fold5_seed0 Task-AE 256     5     0      1.0          41 0.084403    0.406         0.506799        0.052822    987.8
+Task-AE_d256_fold6_seed0 Task-AE 256     6     0      1.0          58 0.105875    0.620         0.544570        0.084072    986.1
+24 codec trainings
+AE-MSE_d128_fold2_seed2: best ep 56 val_mse=0.0615 val_acc=0.3600 (859.2s)
+AE-MSE_d128_fold3_seed1: best ep 58 val_mse=0.0499 val_acc=0.3420 (859.3s)
+AE-MSE_d128_fold1_seed2: best ep 60 val_mse=0.0506 val_acc=0.4980 (859.8s)
+AE-MSE_d128_fold1_seed1: best ep 51 val_mse=0.0497 val_acc=0.5060 (860.6s)
+AE-MSE_d128_fold2_seed1: best ep 47 val_mse=0.0621 val_acc=0.3340 (860.8s)
+AE-MSE_d128_fold3_seed2: best ep 60 val_mse=0.0539 val_acc=0.3800 (860.8s)
+AE-MSE_d128_fold4_seed1: best ep 60 val_mse=0.1064 val_acc=0.5880 (422.1s)
+AE-MSE_d128_fold5_seed1: best ep 59 val_mse=0.0604 val_acc=0.4220 (422.4s)
+AE-MSE_d128_fold4_seed2: best ep 59 val_mse=0.1121 val_acc=0.6840 (423.9s)
+AE-MSE_d128_fold6_seed2: best ep 58 val_mse=0.0811 val_acc=0.5700 (422.8s)
+AE-MSE_d128_fold5_seed2: best ep 59 val_mse=0.0622 val_acc=0.4100 (423.5s)
+AE-MSE_d128_fold6_seed1: best ep 60 val_mse=0.0780 val_acc=0.5880 (423.7s)
+Task-AE_d128_fold1_seed1: best ep 40 val_mse=0.0719 val_acc=0.5520 (447.2s)
+Task-AE_d128_fold1_seed2: best ep 49 val_mse=0.0680 val_acc=0.5300 (446.4s)
+Task-AE_d128_fold2_seed1: best ep 45 val_mse=0.0807 val_acc=0.3480 (447.2s)
+Task-AE_d128_fold3_seed1: best ep 42 val_mse=0.0788 val_acc=0.3600 (446.6s)
+Task-AE_d128_fold2_seed2: best ep 40 val_mse=0.1015 val_acc=0.3980 (447.2s)
+Task-AE_d128_fold3_seed2: best ep 43 val_mse=0.0710 val_acc=0.3800 (446.5s)
+Task-AE_d128_fold4_seed2: best ep 60 val_mse=0.1394 val_acc=0.6520 (467.1s)
+Task-AE_d128_fold4_seed1: best ep 55 val_mse=0.1255 val_acc=0.5600 (468.7s)
+Task-AE_d128_fold5_seed1: best ep 48 val_mse=0.0861 val_acc=0.4280 (468.2s)
+Task-AE_d128_fold6_seed2: best ep 46 val_mse=0.1179 val_acc=0.5540 (467.9s)
+Task-AE_d128_fold5_seed2: best ep 54 val_mse=0.1117 val_acc=0.3980 (468.3s)
+Task-AE_d128_fold6_seed1: best ep 52 val_mse=0.0919 val_acc=0.5980 (469.1s)
+                    name  method   d  fold  seed  lam_max  best_epoch  val_mse  val_acc  first_train_rec  last_train_rec  seconds
+ AE-MSE_d128_fold1_seed1  AE-MSE 128     1     1      1.0          51 0.049686    0.506         0.518365        0.057022    860.6
+ AE-MSE_d128_fold1_seed2  AE-MSE 128     1     2      1.0          60 0.050622    0.498         0.526596        0.059118    859.8
+ AE-MSE_d128_fold2_seed1  AE-MSE 128     2     1      1.0          47 0.062073    0.334         0.507855        0.057787    860.8
+ AE-MSE_d128_fold2_seed2  AE-MSE 128     2     2      1.0          56 0.061528    0.360         0.521474        0.060022    859.2
+ AE-MSE_d128_fold3_seed1  AE-MSE 128     3     1      1.0          58 0.049940    0.342         0.511770        0.058184    859.3
+ AE-MSE_d128_fold3_seed2  AE-MSE 128     3     2      1.0          60 0.053917    0.380         0.522064        0.062237    860.8
+ AE-MSE_d128_fold4_seed1  AE-MSE 128     4     1      1.0          60 0.106388    0.588         0.494001        0.046249    422.1
+ AE-MSE_d128_fold4_seed2  AE-MSE 128     4     2      1.0          59 0.112142    0.684         0.501020        0.049191    423.9
+ AE-MSE_d128_fold5_seed1  AE-MSE 128     5     1      1.0          59 0.060417    0.422         0.467923        0.042174    422.4
+ AE-MSE_d128_fold5_seed2  AE-MSE 128     5     2      1.0          59 0.062162    0.410         0.472617        0.043002    423.5
+ AE-MSE_d128_fold6_seed1  AE-MSE 128     6     1      1.0          60 0.078037    0.588         0.496840        0.054739    423.7
+ AE-MSE_d128_fold6_seed2  AE-MSE 128     6     2      1.0          58 0.081143    0.570         0.508549        0.056708    422.8
+Task-AE_d128_fold1_seed1 Task-AE 128     1     1      1.0          40 0.071887    0.552         0.518365        0.077619    447.2
+Task-AE_d128_fold1_seed2 Task-AE 128     1     2      1.0          49 0.067981    0.530         0.526596        0.083003    446.4
+Task-AE_d128_fold2_seed1 Task-AE 128     2     1      1.0          45 0.080693    0.348         0.507855        0.073311    447.2
+Task-AE_d128_fold2_seed2 Task-AE 128     2     2      1.0          40 0.101453    0.398         0.521474        0.084088    447.2
+Task-AE_d128_fold3_seed1 Task-AE 128     3     1      1.0          42 0.078762    0.360         0.511770        0.074071    446.6
+Task-AE_d128_fold3_seed2 Task-AE 128     3     2      1.0          43 0.071049    0.380         0.522064        0.075572    446.5
+Task-AE_d128_fold4_seed1 Task-AE 128     4     1      1.0          55 0.125547    0.560         0.494001        0.059674    468.7
+Task-AE_d128_fold4_seed2 Task-AE 128     4     2      1.0          60 0.139357    0.652         0.501020        0.069421    467.1
+Task-AE_d128_fold5_seed1 Task-AE 128     5     1      1.0          48 0.086104    0.428         0.467923        0.057835    468.2
+Task-AE_d128_fold5_seed2 Task-AE 128     5     2      1.0          54 0.111722    0.398         0.472617        0.077751    468.3
+Task-AE_d128_fold6_seed1 Task-AE 128     6     1      1.0          52 0.091903    0.598         0.496840        0.070141    469.1
+Task-AE_d128_fold6_seed2 Task-AE 128     6     2      1.0          46 0.117903    0.554         0.508549        0.082445    467.9
+24 codec trainings
+Task-AE_d128_fold2_seed0_lam0.1: best ep 46 val_mse=0.0732 val_acc=0.3480 (468.6s)
+Task-AE_d128_fold1_seed0_lam2: best ep 41 val_mse=0.0912 val_acc=0.5440 (469.3s)
+Task-AE_d128_fold1_seed0_lam0: best ep 37 val_mse=0.0518 val_acc=0.5100 (470.0s)
+Task-AE_d128_fold2_seed0_lam0: best ep 54 val_mse=0.0641 val_acc=0.3300 (470.0s)
+Task-AE_d128_fold1_seed0_lam0.5: best ep 41 val_mse=0.0646 val_acc=0.5320 (470.0s)
+Task-AE_d128_fold1_seed0_lam0.1: best ep 42 val_mse=0.0555 val_acc=0.5200 (470.5s)
+Task-AE_d128_fold2_seed0_lam0.5: best ep 41 val_mse=0.0956 val_acc=0.3440 (436.4s)
+Task-AE_d128_fold3_seed0_lam0: best ep 8 val_mse=0.0729 val_acc=0.4560 (435.9s)
+Task-AE_d128_fold3_seed0_lam0.1: best ep 42 val_mse=0.0686 val_acc=0.4260 (436.3s)
+Task-AE_d128_fold3_seed0_lam0.5: best ep 41 val_mse=0.1443 val_acc=0.4240 (436.6s)
+Task-AE_d128_fold2_seed0_lam2: best ep 43 val_mse=0.1155 val_acc=0.3360 (437.4s)
+Task-AE_d128_fold3_seed0_lam2: best ep 54 val_mse=0.2663 val_acc=0.4120 (436.5s)
+Task-AE_d128_fold4_seed0_lam0: best ep 42 val_mse=0.1098 val_acc=0.6700 (451.4s)
+Task-AE_d128_fold4_seed0_lam0.1: best ep 57 val_mse=0.1127 val_acc=0.6620 (451.4s)
+Task-AE_d128_fold4_seed0_lam0.5: best ep 57 val_mse=0.1219 val_acc=0.6300 (451.8s)
+Task-AE_d128_fold5_seed0_lam0.1: best ep 44 val_mse=0.0758 val_acc=0.4020 (453.2s)
+Task-AE_d128_fold5_seed0_lam0: best ep 57 val_mse=0.0629 val_acc=0.4200 (454.8s)
+Task-AE_d128_fold4_seed0_lam2: best ep 45 val_mse=0.1456 val_acc=0.5980 (455.3s)
+Task-AE_d128_fold5_seed0_lam0.5: best ep 49 val_mse=0.0882 val_acc=0.4200 (459.4s)
+Task-AE_d128_fold5_seed0_lam2: best ep 41 val_mse=0.1369 val_acc=0.4560 (459.6s)
+Task-AE_d128_fold6_seed0_lam0: best ep 27 val_mse=0.0854 val_acc=0.5900 (460.4s)
+Task-AE_d128_fold6_seed0_lam0.1: best ep 60 val_mse=0.0863 val_acc=0.5860 (459.4s)
+Task-AE_d128_fold6_seed0_lam0.5: best ep 45 val_mse=0.1048 val_acc=0.6140 (459.2s)
+Task-AE_d128_fold6_seed0_lam2: best ep 58 val_mse=0.1272 val_acc=0.5540 (459.5s)
+                           name  method   d  fold  seed  lam_max  best_epoch  val_mse  val_acc  first_train_rec  last_train_rec  seconds
+  Task-AE_d128_fold1_seed0_lam0 Task-AE 128     1     0      0.0          37 0.051779    0.510         0.529999        0.055214    470.0
+Task-AE_d128_fold1_seed0_lam0.1 Task-AE 128     1     0      0.1          42 0.055480    0.520         0.529999        0.061607    470.5
+Task-AE_d128_fold1_seed0_lam0.5 Task-AE 128     1     0      0.5          41 0.064592    0.532         0.529999        0.071871    470.0
+  Task-AE_d128_fold1_seed0_lam2 Task-AE 128     1     0      2.0          41 0.091172    0.544         0.529999        0.097053    469.3
+  Task-AE_d128_fold2_seed0_lam0 Task-AE 128     2     0      0.0          54 0.064107    0.330         0.517183        0.055893    470.0
+Task-AE_d128_fold2_seed0_lam0.1 Task-AE 128     2     0      0.1          46 0.073219    0.348         0.517183        0.061340    468.6
+Task-AE_d128_fold2_seed0_lam0.5 Task-AE 128     2     0      0.5          41 0.095616    0.344         0.517183        0.070820    436.4
+  Task-AE_d128_fold2_seed0_lam2 Task-AE 128     2     0      2.0          43 0.115472    0.336         0.517183        0.090329    437.4
+  Task-AE_d128_fold3_seed0_lam0 Task-AE 128     3     0      0.0           8 0.072926    0.456         0.521668        0.057753    435.9
+Task-AE_d128_fold3_seed0_lam0.1 Task-AE 128     3     0      0.1          42 0.068572    0.426         0.521668        0.078892    436.3
+Task-AE_d128_fold3_seed0_lam0.5 Task-AE 128     3     0      0.5          41 0.144325    0.424         0.521668        0.174814    436.6
+  Task-AE_d128_fold3_seed0_lam2 Task-AE 128     3     0      2.0          54 0.266273    0.412         0.521668        0.382609    436.5
+  Task-AE_d128_fold4_seed0_lam0 Task-AE 128     4     0      0.0          42 0.109753    0.670         0.505916        0.045486    451.4
+Task-AE_d128_fold4_seed0_lam0.1 Task-AE 128     4     0      0.1          57 0.112693    0.662         0.505916        0.049541    451.4
+Task-AE_d128_fold4_seed0_lam0.5 Task-AE 128     4     0      0.5          57 0.121915    0.630         0.505916        0.055672    451.8
+  Task-AE_d128_fold4_seed0_lam2 Task-AE 128     4     0      2.0          45 0.145636    0.598         0.505916        0.070093    455.3
+  Task-AE_d128_fold5_seed0_lam0 Task-AE 128     5     0      0.0          57 0.062949    0.420         0.486245        0.042268    454.8
+Task-AE_d128_fold5_seed0_lam0.1 Task-AE 128     5     0      0.1          44 0.075845    0.402         0.486245        0.050217    453.2
+Task-AE_d128_fold5_seed0_lam0.5 Task-AE 128     5     0      0.5          49 0.088167    0.420         0.486245        0.058667    459.4
+  Task-AE_d128_fold5_seed0_lam2 Task-AE 128     5     0      2.0          41 0.136892    0.456         0.486245        0.078951    459.6
+  Task-AE_d128_fold6_seed0_lam0 Task-AE 128     6     0      0.0          27 0.085433    0.590         0.509884        0.054121    460.4
+Task-AE_d128_fold6_seed0_lam0.1 Task-AE 128     6     0      0.1          60 0.086286    0.586         0.509884        0.061191    459.4
+Task-AE_d128_fold6_seed0_lam0.5 Task-AE 128     6     0      0.5          45 0.104762    0.614         0.509884        0.071570    459.2
+  Task-AE_d128_fold6_seed0_lam2 Task-AE 128     6     0      2.0          58 0.127229    0.554         0.509884        0.102643    459.5
+seed 0 fold 1 (george) done
+seed 0 fold 2 (jackson) done
+seed 0 fold 3 (lucas) done
+seed 0 fold 4 (nicolas) done
+seed 0 fold 5 (theo) done
+seed 0 fold 6 (yweweler) done
+seed 1 fold 1 (george) done
+seed 1 fold 2 (jackson) done
+seed 1 fold 3 (lucas) done
+seed 1 fold 4 (nicolas) done
+seed 1 fold 5 (theo) done
+seed 1 fold 6 (yweweler) done
+seed 2 fold 1 (george) done
+seed 2 fold 2 (jackson) done
+seed 2 fold 3 (lucas) done
+seed 2 fold 4 (nicolas) done
+seed 2 fold 5 (theo) done
+seed 2 fold 6 (yweweler) done
+              scope   method    d  bytes  Accuracy_mean  Accuracy_std  Macro_F1_mean  Delta_A_pp_mean  R_acc_mean  MSE_mean  PRD_spec_mean  n_runs
+    seed 0, 6 folds   AE-MSE   64     68         0.3447        0.1218         0.2925          -7.8667     80.7399    0.1064        29.5218       6
+    seed 0, 6 folds   AE-MSE  128    132         0.4040        0.1344         0.3589          -1.9333     95.0660    0.0679        23.8243       6
+    seed 0, 6 folds   AE-MSE  256    260         0.4153        0.1427         0.3683          -0.8000     97.3038    0.0469        20.0525       6
+    seed 0, 6 folds      DCT   64     68         0.3183        0.1082         0.2576         -10.5000     74.7773    0.1318        32.9253       6
+    seed 0, 6 folds      DCT  128    132         0.3913        0.1405         0.3474          -3.2000     91.2972    0.0829        26.5764       6
+    seed 0, 6 folds      DCT  256    260         0.4160        0.1391         0.3705          -0.7333     97.8376    0.0539        21.9071       6
+    seed 0, 6 folds     INT8 2048   2052         0.4223        0.1376         0.3718          -0.1000     99.6613    0.0003         1.7652       6
+    seed 0, 6 folds  Low-Mel   64     68         0.1000        0.0000         0.0182         -32.3333     26.3606    0.9917        94.6931       6
+    seed 0, 6 folds  Low-Mel  128    132         0.1017        0.0041         0.0201         -32.1667     26.7411    0.9599        91.2874       6
+    seed 0, 6 folds  Low-Mel  256    260         0.1063        0.0155         0.0228         -31.7000     27.8065    0.8962        83.8391       6
+    seed 0, 6 folds Original 2048   8196         0.4233        0.1367         0.3732           0.0000    100.0000    0.0000         0.0000       6
+    seed 0, 6 folds  Task-AE   64     68         0.4313        0.1410         0.3877           0.8000    103.2509    0.1728        38.0325       6
+    seed 0, 6 folds  Task-AE  128    132         0.4273        0.1475         0.3878           0.4000    100.3011    0.1236        31.8661       6
+    seed 0, 6 folds  Task-AE  256    260         0.4453        0.1437         0.4060           2.2000    105.4049    0.1108        30.6890       6
+all seeds x 6 folds   AE-MSE  128    132         0.4217        0.1151         0.3786          -2.0222     95.7462    0.0685        23.9726      18
+all seeds x 6 folds      DCT  128    132         0.4226        0.1180         0.3792          -1.9333     96.0190    0.0829        26.5764      18
+all seeds x 6 folds     INT8 2048   2052         0.4412        0.1231         0.3963          -0.0667     99.8038    0.0003         1.7652      18
+all seeds x 6 folds  Low-Mel  128    132         0.1006        0.0024         0.0188         -34.1333     24.8871    0.9599        91.2874      18
+all seeds x 6 folds Original 2048   8196         0.4419        0.1226         0.3970           0.0000    100.0000    0.0000         0.0000      18
+all seeds x 6 folds  Task-AE  128    132         0.4470        0.1227         0.4078           0.5111    101.5474    0.1047        29.5756      18
+           Val_Accuracy             Val_MSE          
+                   mean       std      mean       std
+lambda_max                                           
+0.0            0.496000  0.121852  0.074491  0.020603
+0.1            0.490667  0.119751  0.078682  0.019458
+0.5            0.494000  0.115945  0.103229  0.027633
+1.0            0.484667  0.107269  0.117416  0.041473
+2.0            0.483333  0.099363  0.147112  0.061371
+MATRIX_DONE

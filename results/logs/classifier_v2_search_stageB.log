@@ -1,0 +1,52 @@
+[search_B1_t2_d03_lr1e-3_wd1e-4] fold 3 seed 0: best epoch 27/67 val_acc=0.4580
+[search_B1_t2_d03_lr1e-3_wd1e-4] fold 6 seed 0: best epoch 42/82 val_acc=0.5620
+[search_B2_t2_d03_lr1e-3_wd1e-3] fold 1 seed 0: best epoch 95/135 val_acc=0.6540
+[search_B1_t2_d03_lr1e-3_wd1e-4] fold 1 seed 0: best epoch 95/135 val_acc=0.6160
+[search_B1_t2_d03_lr1e-3_wd1e-4] fold 5 seed 0: best epoch 200/200 val_acc=0.6780
+[search_B1_t2_d03_lr1e-3_wd1e-4] fold 2 seed 0: best epoch 185/200 val_acc=0.8080
+[search_B1_t2_d03_lr1e-3_wd1e-4] fold 4 seed 0: best epoch 178/200 val_acc=0.8160
+[search_B2_t2_d03_lr1e-3_wd1e-3] fold 2 seed 0: best epoch 171/200 val_acc=0.8140
+[search_B2_t2_d03_lr1e-3_wd1e-3] fold 3 seed 0: best epoch 173/200 val_acc=0.5760
+[search_B2_t2_d03_lr1e-3_wd1e-3] fold 6 seed 0: best epoch 42/82 val_acc=0.5860
+[search_B2_t2_d03_lr1e-3_wd1e-3] fold 5 seed 0: best epoch 196/200 val_acc=0.5960
+[search_B2_t2_d03_lr1e-3_wd1e-3] fold 4 seed 0: best epoch 195/200 val_acc=0.7880
+[search_B3_t2_d03_lr3e-4_wd1e-4] fold 3 seed 0: best epoch 61/101 val_acc=0.4820
+[search_B3_t2_d03_lr3e-4_wd1e-4] fold 5 seed 0: best epoch 51/91 val_acc=0.2740
+[search_B3_t2_d03_lr3e-4_wd1e-4] fold 1 seed 0: best epoch 144/184 val_acc=0.5360
+[search_B3_t2_d03_lr3e-4_wd1e-4] fold 2 seed 0: best epoch 191/200 val_acc=0.6940
+[search_B4_t2_d05_lr1e-3_wd1e-4] fold 3 seed 0: best epoch 27/67 val_acc=0.4660
+[search_B4_t2_d05_lr1e-3_wd1e-4] fold 1 seed 0: best epoch 95/135 val_acc=0.6680
+[search_B3_t2_d03_lr3e-4_wd1e-4] fold 4 seed 0: best epoch 174/200 val_acc=0.7060
+[search_B4_t2_d05_lr1e-3_wd1e-4] fold 6 seed 0: best epoch 23/63 val_acc=0.4840
+[search_B5_t1_d03_lr1e-3_wd1e-4] fold 1 seed 0: best epoch 45/85 val_acc=0.5680
+[search_B4_t2_d05_lr1e-3_wd1e-4] fold 4 seed 0: best epoch 96/136 val_acc=0.7640
+[search_B3_t2_d03_lr3e-4_wd1e-4] fold 6 seed 0: best epoch 150/190 val_acc=0.5460
+[search_B4_t2_d05_lr1e-3_wd1e-4] fold 2 seed 0: best epoch 185/200 val_acc=0.7840
+[search_B5_t1_d03_lr1e-3_wd1e-4] fold 6 seed 0: best epoch 77/117 val_acc=0.6320
+[search_B5_t1_d03_lr1e-3_wd1e-4] fold 2 seed 0: best epoch 185/200 val_acc=0.8500
+[search_B4_t2_d05_lr1e-3_wd1e-4] fold 5 seed 0: best epoch 180/200 val_acc=0.6960
+[search_B5_t1_d03_lr1e-3_wd1e-4] fold 3 seed 0: best epoch 153/193 val_acc=0.5600
+[search_B5_t1_d03_lr1e-3_wd1e-4] fold 4 seed 0: best epoch 129/169 val_acc=0.7760
+[search_B5_t1_d03_lr1e-3_wd1e-4] fold 5 seed 0: best epoch 183/200 val_acc=0.6620
+[search_B6_t2_d05_lr1e-3_wd1e-3] fold 1 seed 0: best epoch 95/135 val_acc=0.6320
+[search_B6_t2_d05_lr1e-3_wd1e-3] fold 6 seed 0: best epoch 66/106 val_acc=0.5100
+[search_B6_t2_d05_lr1e-3_wd1e-3] fold 2 seed 0: best epoch 197/200 val_acc=0.7680
+[search_B6_t2_d05_lr1e-3_wd1e-3] fold 3 seed 0: best epoch 177/200 val_acc=0.5980
+[search_B6_t2_d05_lr1e-3_wd1e-3] fold 5 seed 0: best epoch 142/182 val_acc=0.5500
+[search_B6_t2_d05_lr1e-3_wd1e-3] fold 4 seed 0: best epoch 178/200 val_acc=0.8000
+fold                         1      2      3      4      5      6   mean
+config                                                                  
+B5_t1_d03_lr1e-3_wd1e-4  0.568  0.850  0.560  0.776  0.662  0.632  0.675
+B2_t2_d03_lr1e-3_wd1e-3  0.654  0.814  0.576  0.788  0.596  0.586  0.669
+B1_t2_d03_lr1e-3_wd1e-4  0.616  0.808  0.458  0.816  0.678  0.562  0.656
+B4_t2_d05_lr1e-3_wd1e-4  0.668  0.784  0.466  0.764  0.696  0.484  0.644
+B6_t2_d05_lr1e-3_wd1e-3  0.632  0.768  0.598  0.800  0.550  0.510  0.643
+A8_t2_d03_specspeed      0.616  0.758  0.516  0.750  0.594  0.580  0.636
+A5_t1_d03_specspeed      0.614  0.782  0.458  0.740  0.574  0.632  0.633
+A6_v1_d03_specspeed      0.580  0.660  0.530  0.722  0.544  0.598  0.606
+A4_t2_d03_spec           0.490  0.624  0.428  0.756  0.572  0.596  0.578
+A3_t1_d03_spec           0.488  0.550  0.400  0.742  0.562  0.598  0.557
+B3_t2_d03_lr3e-4_wd1e-4  0.536  0.694  0.482  0.706  0.274  0.546  0.540
+A7_t1_d03_none           0.540  0.540  0.420  0.712  0.428  0.580  0.537
+A2_v1_d03_spec           0.490  0.526  0.388  0.752  0.504  0.540  0.533
+A1_v1_base               0.528  0.400  0.374  0.670  0.390  0.572  0.489

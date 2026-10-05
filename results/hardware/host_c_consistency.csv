@@ -1,0 +1,4 @@
+d,fold,seed,n,L1_exact_value_ratio,L1_max_abs_q_diff,L1_mae_q,L1_exact_vector_ratio,L1_prediction_agreement,L2_logmel_max_abs_err,L2_logmel_mean_abs_err,L2_exact_value_ratio,L2_max_abs_q_diff,L2_prediction_agreement,acc_reference,acc_L1_c,acc_L2_c
+64,1,0,500,1.0,0,0.0,1.0,1.0,1.4066696166992188e-05,2.4673283860465745e-07,0.9999375,1,1.0,0.41,0.41,0.41
+128,1,0,500,1.0,0,0.0,1.0,1.0,1.4066696166992188e-05,2.4673283860465745e-07,0.99996875,1,1.0,0.472,0.472,0.472
+256,1,0,500,1.0,0,0.0,1.0,1.0,1.4066696166992188e-05,2.4673283860465745e-07,0.9999921875,1,1.0,0.528,0.528,0.528

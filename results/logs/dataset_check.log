@@ -1,0 +1,59 @@
+=== FSDD dataset check ===
+Total files: 3000
+Speakers (6): ['george', 'jackson', 'lucas', 'nicolas', 'theo', 'yweweler']
+Labels (10): [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+Files per speaker:
+speaker
+george      500
+jackson     500
+lucas       500
+nicolas     500
+theo        500
+yweweler    500
+
+Files per digit:
+label
+0    300
+1    300
+2    300
+3    300
+4    300
+5    300
+6    300
+7    300
+8    300
+9    300
+
+Files per speaker x digit:
+label      0   1   2   3   4   5   6   7   8   9
+speaker                                         
+george    50  50  50  50  50  50  50  50  50  50
+jackson   50  50  50  50  50  50  50  50  50  50
+lucas     50  50  50  50  50  50  50  50  50  50
+nicolas   50  50  50  50  50  50  50  50  50  50
+theo      50  50  50  50  50  50  50  50  50  50
+yweweler  50  50  50  50  50  50  50  50  50  50
+
+Sample rates: {8000: 3000}
+Channels: {1: 3000}
+Subtypes: {'PCM_16': 3000}
+Duration (s): min=0.1435 max=2.2828 mean=0.4374 std=0.1476 median=0.4198
+num_samples: min=1148 max=18262  PAD(<8000)=2980 KEEP(=8000)=0 CROP(>8000)=20
+
+[PASS] all filenames match {digit}_{speaker}_{index}.wav
+[PASS] all files readable (no corrupt files)
+[PASS] total files == 3000
+[PASS] 6 speakers
+[PASS] 10 classes 0..9
+[PASS] no label outside 0..9
+[PASS] all sample rates == 8000
+[PASS] all mono
+[PASS] no duplicate filenames
+[PASS] 500 files per speaker
+[PASS] 300 files per digit
+[PASS] 50 files per speaker x digit
+[PASS] recording_index 0..49 unique per speaker x digit
+[PASS] no duplicate content (sha256): 0 files share a hash
+
+RESULT: ALL CHECKS PASS

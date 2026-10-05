@@ -1,0 +1,27 @@
+[bench] encoder_ms median=489.020 p95=489.022 end_to_end median=584.442
+[check] 10 samples, PASS=10
+  0/500 match so far 1.000
+  50/500 match so far 1.000
+  100/500 match so far 1.000
+  150/500 match so far 1.000
+  200/500 match so far 1.000
+  250/500 match so far 1.000
+  300/500 match so far 1.000
+  350/500 match so far 1.000
+  400/500 match so far 1.000
+  450/500 match so far 1.000
+  0/500 match so far 1.000
+  50/500 match so far 1.000
+  100/500 match so far 1.000
+  150/500 match so far 1.000
+  200/500 match so far 1.000
+  250/500 match so far 1.000
+  300/500 match so far 1.000
+  350/500 match so far 1.000
+  400/500 match so far 1.000
+  450/500 match so far 1.000
+      match  latent_exact_ratio  encoder_latency_ms
+mode                                               
+A       1.0            0.999906          489.028456
+L       1.0            1.000000          489.199478
+accuracy (esp32 packets): {'A': 0.41, 'L': 0.41}

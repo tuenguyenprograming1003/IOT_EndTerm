@@ -1,0 +1,58 @@
+[search_A1_v1_base] fold 3 seed 0: best epoch 6/60 val_acc=0.3740
+[search_A1_v1_base] fold 2 seed 0: best epoch 53/60 val_acc=0.4000
+[search_A1_v1_base] fold 4 seed 0: best epoch 54/60 val_acc=0.6700
+[search_A1_v1_base] fold 6 seed 0: best epoch 48/60 val_acc=0.5720
+[search_A1_v1_base] fold 5 seed 0: best epoch 46/60 val_acc=0.3900
+[search_A1_v1_base] fold 1 seed 0: best epoch 54/60 val_acc=0.5280
+[search_A2_v1_d03_spec] fold 1 seed 0: best epoch 93/100 val_acc=0.4900
+[search_A2_v1_d03_spec] fold 3 seed 0: best epoch 83/100 val_acc=0.3880
+[search_A2_v1_d03_spec] fold 2 seed 0: best epoch 72/100 val_acc=0.5260
+[search_A2_v1_d03_spec] fold 4 seed 0: best epoch 85/100 val_acc=0.7520
+[search_A2_v1_d03_spec] fold 5 seed 0: best epoch 94/100 val_acc=0.5040
+[search_A2_v1_d03_spec] fold 6 seed 0: best epoch 96/100 val_acc=0.5400
+[search_A3_t1_d03_spec] fold 1 seed 0: best epoch 99/100 val_acc=0.4880
+[search_A3_t1_d03_spec] fold 2 seed 0: best epoch 100/100 val_acc=0.5500
+[search_A3_t1_d03_spec] fold 5 seed 0: best epoch 94/100 val_acc=0.5620
+[search_A3_t1_d03_spec] fold 3 seed 0: best epoch 86/100 val_acc=0.4000
+[search_A3_t1_d03_spec] fold 4 seed 0: best epoch 85/100 val_acc=0.7420
+[search_A3_t1_d03_spec] fold 6 seed 0: best epoch 30/100 val_acc=0.5980
+[search_A4_t2_d03_spec] fold 1 seed 0: best epoch 99/100 val_acc=0.4900
+[search_A5_t1_d03_specspeed] fold 1 seed 0: best epoch 95/100 val_acc=0.6140
+[search_A4_t2_d03_spec] fold 2 seed 0: best epoch 99/100 val_acc=0.6240
+[search_A4_t2_d03_spec] fold 3 seed 0: best epoch 69/100 val_acc=0.4280
+[search_A4_t2_d03_spec] fold 4 seed 0: best epoch 65/100 val_acc=0.7560
+[search_A4_t2_d03_spec] fold 5 seed 0: best epoch 94/100 val_acc=0.5720
+[search_A4_t2_d03_spec] fold 6 seed 0: best epoch 48/100 val_acc=0.5960
+[search_A5_t1_d03_specspeed] fold 2 seed 0: best epoch 92/100 val_acc=0.7820
+[search_A5_t1_d03_specspeed] fold 3 seed 0: best epoch 99/100 val_acc=0.4580
+[search_A5_t1_d03_specspeed] fold 4 seed 0: best epoch 66/100 val_acc=0.7400
+[search_A6_v1_d03_specspeed] fold 1 seed 0: best epoch 95/100 val_acc=0.5800
+[search_A6_v1_d03_specspeed] fold 2 seed 0: best epoch 75/100 val_acc=0.6600
+[search_A6_v1_d03_specspeed] fold 3 seed 0: best epoch 30/100 val_acc=0.5300
+[search_A5_t1_d03_specspeed] fold 5 seed 0: best epoch 97/100 val_acc=0.5740
+[search_A6_v1_d03_specspeed] fold 4 seed 0: best epoch 93/100 val_acc=0.7220
+[search_A6_v1_d03_specspeed] fold 5 seed 0: best epoch 91/100 val_acc=0.5440
+[search_A5_t1_d03_specspeed] fold 6 seed 0: best epoch 77/100 val_acc=0.6320
+[search_A7_t1_d03_none] fold 1 seed 0: best epoch 41/60 val_acc=0.5400
+[search_A6_v1_d03_specspeed] fold 6 seed 0: best epoch 53/100 val_acc=0.5980
+[search_A7_t1_d03_none] fold 2 seed 0: best epoch 53/60 val_acc=0.5400
+[search_A7_t1_d03_none] fold 3 seed 0: best epoch 38/60 val_acc=0.4200
+[search_A7_t1_d03_none] fold 4 seed 0: best epoch 57/60 val_acc=0.7120
+[search_A7_t1_d03_none] fold 5 seed 0: best epoch 59/60 val_acc=0.4280
+[search_A7_t1_d03_none] fold 6 seed 0: best epoch 48/60 val_acc=0.5800
+[search_A8_t2_d03_specspeed] fold 1 seed 0: best epoch 95/100 val_acc=0.6160
+[search_A8_t2_d03_specspeed] fold 3 seed 0: best epoch 97/100 val_acc=0.5160
+[search_A8_t2_d03_specspeed] fold 2 seed 0: best epoch 95/100 val_acc=0.7580
+[search_A8_t2_d03_specspeed] fold 4 seed 0: best epoch 96/100 val_acc=0.7500
+[search_A8_t2_d03_specspeed] fold 5 seed 0: best epoch 91/100 val_acc=0.5940
+[search_A8_t2_d03_specspeed] fold 6 seed 0: best epoch 93/100 val_acc=0.5800
+fold                     1      2      3      4      5      6   mean
+config                                                              
+A8_t2_d03_specspeed  0.616  0.758  0.516  0.750  0.594  0.580  0.636
+A5_t1_d03_specspeed  0.614  0.782  0.458  0.740  0.574  0.632  0.633
+A6_v1_d03_specspeed  0.580  0.660  0.530  0.722  0.544  0.598  0.606
+A4_t2_d03_spec       0.490  0.624  0.428  0.756  0.572  0.596  0.578
+A3_t1_d03_spec       0.488  0.550  0.400  0.742  0.562  0.598  0.557
+A7_t1_d03_none       0.540  0.540  0.420  0.712  0.428  0.580  0.537
+A2_v1_d03_spec       0.490  0.526  0.388  0.752  0.504  0.540  0.533
+A1_v1_base           0.528  0.400  0.374  0.670  0.390  0.572  0.489

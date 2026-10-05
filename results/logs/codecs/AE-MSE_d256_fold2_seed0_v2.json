@@ -1,0 +1,15 @@
+{
+  "name": "AE-MSE_d256_fold2_seed0_v2",
+  "method": "AE-MSE",
+  "d": 256,
+  "fold": 2,
+  "seed": 0,
+  "lam_max": 1.0,
+  "best_epoch": 58,
+  "val_mse": 0.03778468072414398,
+  "val_acc": 0.784,
+  "first_train_rec": 0.560974705696106,
+  "last_train_rec": 0.04097097980976105,
+  "seconds": 413.1,
+  "gradient_check": null
+}

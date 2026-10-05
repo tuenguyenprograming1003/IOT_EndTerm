@@ -1,0 +1,366 @@
+{
+  "speakers_sorted": [
+    "george",
+    "jackson",
+    "lucas",
+    "nicolas",
+    "theo",
+    "yweweler"
+  ],
+  "folds": {
+    "fold_1": {
+      "train": {
+        "speakers": [
+          "lucas",
+          "nicolas",
+          "theo",
+          "yweweler"
+        ],
+        "n": 2000,
+        "per_digit": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200
+        ]
+      },
+      "val": {
+        "speakers": [
+          "jackson"
+        ],
+        "n": 500,
+        "per_digit": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      },
+      "test": {
+        "speakers": [
+          "george"
+        ],
+        "n": 500,
+        "per_digit": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      }
+    },
+    "fold_2": {
+      "train": {
+        "speakers": [
+          "george",
+          "nicolas",
+          "theo",
+          "yweweler"
+        ],
+        "n": 2000,
+        "per_digit": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200
+        ]
+      },
+      "val": {
+        "speakers": [
+          "lucas"
+        ],
+        "n": 500,
+        "per_digit": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      },
+      "test": {
+        "speakers": [
+          "jackson"
+        ],
+        "n": 500,
+        "per_digit": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      }
+    },
+    "fold_3": {
+      "train": {
+        "speakers": [
+          "george",
+          "jackson",
+          "theo",
+          "yweweler"
+        ],
+        "n": 2000,
+        "per_digit": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200
+        ]
+      },
+      "val": {
+        "speakers": [
+          "nicolas"
+        ],
+        "n": 500,
+        "per_digit": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      },
+      "test": {
+        "speakers": [
+          "lucas"
+        ],
+        "n": 500,
+        "per_digit": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      }
+    },
+    "fold_4": {
+      "train": {
+        "speakers": [
+          "george",
+          "jackson",
+          "lucas",
+          "yweweler"
+        ],
+        "n": 2000,
+        "per_digit": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200
+        ]
+      },
+      "val": {
+        "speakers": [
+          "theo"
+        ],
+        "n": 500,
+        "per_digit": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      },
+      "test": {
+        "speakers": [
+          "nicolas"
+        ],
+        "n": 500,
+        "per_digit": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      }
+    },
+    "fold_5": {
+      "train": {
+        "speakers": [
+          "george",
+          "jackson",
+          "lucas",
+          "nicolas"
+        ],
+        "n": 2000,
+        "per_digit": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200
+        ]
+      },
+      "val": {
+        "speakers": [
+          "yweweler"
+        ],
+        "n": 500,
+        "per_digit": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      },
+      "test": {
+        "speakers": [
+          "theo"
+        ],
+        "n": 500,
+        "per_digit": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      }
+    },
+    "fold_6": {
+      "train": {
+        "speakers": [
+          "jackson",
+          "lucas",
+          "nicolas",
+          "theo"
+        ],
+        "n": 2000,
+        "per_digit": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200,
+          200
+        ]
+      },
+      "val": {
+        "speakers": [
+          "george"
+        ],
+        "n": 500,
+        "per_digit": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      },
+      "test": {
+        "speakers": [
+          "yweweler"
+        ],
+        "n": 500,
+        "per_digit": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "exports": [
+    {
+      "name": "Task-AE_d64_fold1_seed0",
+      "d": 64,
+      "r": 2,
+      "n_params": 92930,
+      "weight_bytes_fp32": 371720,
+      "onnx": true
+    },
+    {
+      "name": "Task-AE_d128_fold1_seed0",
+      "d": 128,
+      "r": 4,
+      "n_params": 93188,
+      "weight_bytes_fp32": 372752,
+      "onnx": true
+    },
+    {
+      "name": "Task-AE_d256_fold1_seed0",
+      "d": 256,
+      "r": 8,
+      "n_params": 93704,
+      "weight_bytes_fp32": 374816,
+      "onnx": true
+    }
+  ],
+  "fold": 1,
+  "seed": 0,
+  "backend": "plain C float32 (esp32/firmware/main/encoder.c)"
+}

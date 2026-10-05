@@ -1,0 +1,21 @@
+{
+  "name": "Task-AE_d128_fold2_seed0_lam0.5",
+  "method": "Task-AE",
+  "d": 128,
+  "fold": 2,
+  "seed": 0,
+  "lam_max": 0.5,
+  "best_epoch": 41,
+  "val_mse": 0.09561610221862793,
+  "val_acc": 0.344,
+  "first_train_rec": 0.5171834199428559,
+  "last_train_rec": 0.07081983938813209,
+  "seconds": 436.4,
+  "gradient_check": {
+    "encoder_grad_norm": 1.6531033821115604,
+    "decoder_grad_norm": 53.57527379988091,
+    "classifier_params_received_grad": false,
+    "classifier_requires_grad": false,
+    "classifier_training_mode": false
+  }
+}

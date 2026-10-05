@@ -1,0 +1,21 @@
+{
+  "name": "Task-AE_d64_fold3_seed0",
+  "method": "Task-AE",
+  "d": 64,
+  "fold": 3,
+  "seed": 0,
+  "lam_max": 1.0,
+  "best_epoch": 41,
+  "val_mse": 0.26755326986312866,
+  "val_acc": 0.394,
+  "first_train_rec": 0.5126386282444,
+  "last_train_rec": 0.2985792565345764,
+  "seconds": 525.2,
+  "gradient_check": {
+    "encoder_grad_norm": 0.018635965424680385,
+    "decoder_grad_norm": 1.9938038304587429,
+    "classifier_params_received_grad": false,
+    "classifier_requires_grad": false,
+    "classifier_training_mode": false
+  }
+}

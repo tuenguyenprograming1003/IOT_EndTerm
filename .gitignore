@@ -1,0 +1,25 @@
+# Python / Jupyter
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Dataset clone (re-download: see data/DATASET_VERSION.txt for the exact commit)
+data/fsdd/
+
+# ESP-IDF build outputs and generated configs (rebuild: see esp32/README.md)
+esp32/firmware/build*/
+esp32/firmware/sdkconfig
+esp32/firmware/sdkconfig.old
+esp32/host_test/host_test_d*
+
+# Generated report archives (rebuild: bash make_report_package.sh)
+report_C3*.zip
+colab_bundle/
+
+# Third-party papers / documentation snapshots are not redistributed;
+# download them with the links in papers/README.md and papers/paper_tracker.csv
+papers/*.pdf
+papers/tech_docs/*.pdf
+papers/tech_docs/*.html

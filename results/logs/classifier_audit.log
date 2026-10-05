@@ -1,0 +1,18 @@
+fold 1 (george): best_epoch=45 val_acc stored=0.5460 reloaded=0.5460 | test preds == saved CSV: True | mu/sigma == Train-recomputed: True | test x identical: True | labels==filename digit: True | input shape (500, 1, 64, 32) | eval mode: True | train acc 0.936 test acc 0.514
+fold 2 (jackson): best_epoch=48 val_acc stored=0.3720 reloaded=0.3720 | test preds == saved CSV: True | mu/sigma == Train-recomputed: True | test x identical: True | labels==filename digit: True | input shape (500, 1, 64, 32) | eval mode: True | train acc 0.959 test acc 0.562
+fold 3 (lucas): best_epoch=5 val_acc stored=0.4480 reloaded=0.4480 | test preds == saved CSV: True | mu/sigma == Train-recomputed: True | test x identical: True | labels==filename digit: True | input shape (500, 1, 64, 32) | eval mode: True | train acc 0.514 test acc 0.240
+fold 4 (nicolas): best_epoch=56 val_acc stored=0.6200 reloaded=0.6200 | test preds == saved CSV: True | mu/sigma == Train-recomputed: True | test x identical: True | labels==filename digit: True | input shape (500, 1, 64, 32) | eval mode: True | train acc 0.956 test acc 0.270
+fold 5 (theo): best_epoch=45 val_acc stored=0.4060 reloaded=0.4060 | test preds == saved CSV: True | mu/sigma == Train-recomputed: True | test x identical: True | labels==filename digit: True | input shape (500, 1, 64, 32) | eval mode: True | train acc 0.922 test acc 0.438
+fold 6 (yweweler): best_epoch=39 val_acc stored=0.5720 reloaded=0.5720 | test preds == saved CSV: True | mu/sigma == Train-recomputed: True | test x identical: True | labels==filename digit: True | input shape (500, 1, 64, 32) | eval mode: True | train acc 0.929 test acc 0.516
+prediction CSV label == filename digit for all rows: True
+
+Per-speaker summary:
+ fold test_speaker  train_acc  val_acc  test_acc
+    1       george      0.936    0.546     0.514
+    2      jackson      0.959    0.372     0.562
+    3        lucas      0.514    0.448     0.240
+    4      nicolas      0.956    0.620     0.270
+    5         theo      0.922    0.406     0.438
+    6     yweweler      0.930    0.572     0.516
+
+Diagnostic speaker-DEPENDENT random split (same features/classifier, 40 ep): val 0.898 test 0.880  (not part of the protocol)

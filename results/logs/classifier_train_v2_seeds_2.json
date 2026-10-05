@@ -1,0 +1,67 @@
+{
+  "config": {
+    "epochs": 200,
+    "batch_size": 64,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "optimizer": "Adam"
+  },
+  "arch": {
+    "name": "t1",
+    "dropout": 0.3
+  },
+  "aug": "spec+speed",
+  "patience": 40,
+  "test_evaluated": true,
+  "runs": [
+    {
+      "fold": 1,
+      "seed": 2,
+      "best_epoch": 54,
+      "epochs_run": 94,
+      "val_acc": 0.578,
+      "test_acc": 0.428
+    },
+    {
+      "fold": 2,
+      "seed": 2,
+      "best_epoch": 163,
+      "epochs_run": 200,
+      "val_acc": 0.796,
+      "test_acc": 0.744
+    },
+    {
+      "fold": 3,
+      "seed": 2,
+      "best_epoch": 26,
+      "epochs_run": 66,
+      "val_acc": 0.446,
+      "test_acc": 0.4
+    },
+    {
+      "fold": 4,
+      "seed": 2,
+      "best_epoch": 184,
+      "epochs_run": 200,
+      "val_acc": 0.726,
+      "test_acc": 0.36
+    },
+    {
+      "fold": 5,
+      "seed": 2,
+      "best_epoch": 185,
+      "epochs_run": 200,
+      "val_acc": 0.642,
+      "test_acc": 0.476
+    },
+    {
+      "fold": 6,
+      "seed": 2,
+      "best_epoch": 62,
+      "epochs_run": 102,
+      "val_acc": 0.57,
+      "test_acc": 0.686
+    }
+  ],
+  "seconds": 822.3
+}

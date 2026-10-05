@@ -1,0 +1,138 @@
+{
+  "config": {
+    "epochs": 60,
+    "batch_size": 64,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "optimizer": "Adam"
+  },
+  "runs": [
+    {
+      "fold": 1,
+      "seed": 0,
+      "best_epoch": 45,
+      "val_acc": 0.546,
+      "test_acc": 0.514
+    },
+    {
+      "fold": 2,
+      "seed": 0,
+      "best_epoch": 48,
+      "val_acc": 0.372,
+      "test_acc": 0.562
+    },
+    {
+      "fold": 3,
+      "seed": 0,
+      "best_epoch": 5,
+      "val_acc": 0.448,
+      "test_acc": 0.24
+    },
+    {
+      "fold": 4,
+      "seed": 0,
+      "best_epoch": 56,
+      "val_acc": 0.62,
+      "test_acc": 0.27
+    },
+    {
+      "fold": 5,
+      "seed": 0,
+      "best_epoch": 45,
+      "val_acc": 0.406,
+      "test_acc": 0.438
+    },
+    {
+      "fold": 6,
+      "seed": 0,
+      "best_epoch": 39,
+      "val_acc": 0.572,
+      "test_acc": 0.516
+    },
+    {
+      "fold": 1,
+      "seed": 1,
+      "best_epoch": 57,
+      "val_acc": 0.588,
+      "test_acc": 0.54
+    },
+    {
+      "fold": 2,
+      "seed": 1,
+      "best_epoch": 52,
+      "val_acc": 0.364,
+      "test_acc": 0.61
+    },
+    {
+      "fold": 3,
+      "seed": 1,
+      "best_epoch": 59,
+      "val_acc": 0.344,
+      "test_acc": 0.256
+    },
+    {
+      "fold": 4,
+      "seed": 1,
+      "best_epoch": 56,
+      "val_acc": 0.582,
+      "test_acc": 0.334
+    },
+    {
+      "fold": 5,
+      "seed": 1,
+      "best_epoch": 59,
+      "val_acc": 0.414,
+      "test_acc": 0.436
+    },
+    {
+      "fold": 6,
+      "seed": 1,
+      "best_epoch": 57,
+      "val_acc": 0.63,
+      "test_acc": 0.494
+    },
+    {
+      "fold": 1,
+      "seed": 2,
+      "best_epoch": 56,
+      "val_acc": 0.586,
+      "test_acc": 0.492
+    },
+    {
+      "fold": 2,
+      "seed": 2,
+      "best_epoch": 46,
+      "val_acc": 0.39,
+      "test_acc": 0.622
+    },
+    {
+      "fold": 3,
+      "seed": 2,
+      "best_epoch": 57,
+      "val_acc": 0.44,
+      "test_acc": 0.272
+    },
+    {
+      "fold": 4,
+      "seed": 2,
+      "best_epoch": 41,
+      "val_acc": 0.704,
+      "test_acc": 0.386
+    },
+    {
+      "fold": 5,
+      "seed": 2,
+      "best_epoch": 59,
+      "val_acc": 0.422,
+      "test_acc": 0.452
+    },
+    {
+      "fold": 6,
+      "seed": 2,
+      "best_epoch": 56,
+      "val_acc": 0.594,
+      "test_acc": 0.52
+    }
+  ],
+  "seconds": 1590.0
+}

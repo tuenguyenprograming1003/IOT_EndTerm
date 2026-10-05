@@ -1,0 +1,11 @@
+Dataset: Free Spoken Digit Dataset (FSDD)
+Repository: https://github.com/Jakobovski/free-spoken-digit-dataset
+Clone command: git clone https://github.com/Jakobovski/free-spoken-digit-dataset.git data/fsdd
+Commit hash (git rev-parse HEAD): 26eb9aaf76e81b692f806f9140c2d2777410d7a1
+Tag/describe (git describe --tags --always): v1.0.10-27-g26eb9aa
+Commit date: 2024-05-02 16:55:08 -0400
+Download date: 2026-10-05 09:20:11 +0700
+Number of .wav files: 3000
+Speakers: george jackson lucas nicolas theo yweweler 
+Format: mono WAV, 8000 Hz, PCM_16
+DOI (Zenodo concept): see README badge https://zenodo.org/badge/latestdoi/61622039

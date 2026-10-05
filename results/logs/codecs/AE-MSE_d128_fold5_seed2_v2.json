@@ -1,0 +1,15 @@
+{
+  "name": "AE-MSE_d128_fold5_seed2_v2",
+  "method": "AE-MSE",
+  "d": 128,
+  "fold": 5,
+  "seed": 2,
+  "lam_max": 1.0,
+  "best_epoch": 59,
+  "val_mse": 0.06216222047805786,
+  "val_acc": 0.57,
+  "first_train_rec": 0.4726165735721588,
+  "last_train_rec": 0.04300218731164932,
+  "seconds": 370.1,
+  "gradient_check": null
+}

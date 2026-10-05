@@ -1,0 +1,10 @@
+- Tổng số recordings: 3000
+- Số speaker: 6 (george, jackson, lucas, nicolas, theo, yweweler)
+- Số class: 10
+- Duration trung bình: 0.437 s (std 0.148, min 0.143, max 2.283)
+- Số file cần padding (N < 8000): 2980
+- Số file giữ nguyên (N = 8000): 0
+- Số file cần crop (N > 8000): 20
+- Cân bằng theo speaker: CÓ (500–500 file/speaker)
+- Cân bằng theo digit: CÓ (300–300 file/digit)
+- Mỗi cặp speaker × digit: 50–50 file
